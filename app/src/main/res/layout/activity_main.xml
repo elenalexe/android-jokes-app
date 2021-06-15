@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/titletextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Choose a category"
+        android:textColor="#972D2D"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/anybutton"
+        android:layout_width="203dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="56dp"
+        android:text="ANY"
+        app:backgroundTint="#701010"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/animImageView" />
+
+    <Button
+        android:id="@+id/christmasbutton"
+        android:layout_width="203dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="36dp"
+        android:text="CHRISTMAS"
+        app:backgroundTint="#701010"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/anybutton" />
+
+    <Button
+        android:id="@+id/programmbutton"
+        android:layout_width="203dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="36dp"
+        android:text="PROGRAMMING"
+        app:backgroundTint="#701010"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/christmasbutton" />
+
+    <Button
+        android:id="@+id/miscbutton"
+        android:layout_width="203dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="36dp"
+        android:text="MISCELLANEOUS"
+        app:backgroundTint="#701010"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/programmbutton" />
+
+    <Button
+        android:id="@+id/darkbutton"
+        android:layout_width="203dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="36dp"
+        android:text="DARK"
+        app:backgroundTint="#701010"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/miscbutton" />
+
+    <Button
+        android:id="@+id/punbutton"
+        android:layout_width="203dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="36dp"
+        android:text="PUN"
+        app:backgroundTint="#701010"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/darkbutton" />
+
+    <Button
+        android:id="@+id/spookybutton"
+        android:layout_width="203dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="36dp"
+        android:text="SPOOKY"
+        app:backgroundTint="#701010"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/punbutton"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/animImageView"
+        android:layout_width="61dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titletextView"
+        app:srcCompat="@android:drawable/btn_star_big_on"
+        android:visibility="visible"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

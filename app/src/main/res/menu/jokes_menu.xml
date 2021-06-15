@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/any"
+        android:title="Any category"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/xmas"
+        android:title="Christmas"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/program"
+        android:title="Programming"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/misc"
+        android:title="Miscellaneous"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/dark"
+        android:title="Dark"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/pun"
+        android:title="Pun"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/spook"
+        android:title="Spooky"
+        app:showAsAction="never"
+        />
+
+</menu>
